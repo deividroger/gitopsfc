@@ -5,5 +5,5 @@ resources:
 images:
 - name: goserver
   newName: deividroger/gitopsfc
-  newTag: 0bedbf9e86a49fcc385ece3345d2282ca6321da4
+  newTag: 5117e572d500ff717ea9813a6c80b79b57bb4c87
 kind: Kustomization
