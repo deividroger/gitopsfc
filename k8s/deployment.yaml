@@ -1,0 +1,24 @@
+# https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  goserver
+  namespace: default
+  labels:
+    app:  goserver
+spec:
+  selector:
+    matchLabels:
+      app: goserver
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app:  goserver
+    spec:
+      containers:
+      - name:  goserver
+        image:  goserver
+        ports:
+        - containerPort:  8080
+          name:  goserver
