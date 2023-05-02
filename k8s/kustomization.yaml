@@ -6,7 +6,4 @@ images:
 - name: goserver
   newName: deividroger/gitopsfc
   newTag: 650a52e7c8c78500da86cb72f6ff7b5d1eea5c55
-- name: goverserver
-  newName: deividroger/gitopsfc
-  newTag: sdklfndfgde
 kind: Kustomization
